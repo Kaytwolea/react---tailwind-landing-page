@@ -38,7 +38,7 @@ const Plancard = (props) => {
 };
 const Basic = () => {
   return (
-    <div className='w-5/6 mx-auto lg:grid grid-cols-3 space-y-4 gap-16 mt-16'>
+    <div className='w-5/6 mx-auto lg:grid grid-cols-3 gap-16 mt-16'>
       <Plancard
         plan='Starter'
         price='$4.20'
